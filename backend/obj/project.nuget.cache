@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uH6TbGfyGsacKR9XhsvVw4i8Wc2DC7WXXRbVshhORMmQ0UyxN1IogAt5jFIXCh652UnSYiw0PkJs6vANJBYlZQ==",
+  "dgSpecHash": "D//S6yon8hUjKArnvv7/HJogz22gJCKJPa7aWHaqNmu+FFwBAlaQG6MOZwAwaaQ1C0tf9NeGKELR4iMRKghIqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jhose\\desktop\\projetos\\day-manager\\backend\\backend.csproj",
+  "projectFilePath": "C:\\Users\\jhose\\Desktop\\projetos\\day-manager\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhose\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jhose\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
