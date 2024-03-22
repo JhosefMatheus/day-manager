@@ -1,0 +1,18 @@
+meta {
+  name: sign-in
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:5071/auth/sign-in
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "login": "jhosef.nascimento.108",
+    "password": "Bambam@xx12"
+  }
+}
