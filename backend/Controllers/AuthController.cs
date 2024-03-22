@@ -1,4 +1,6 @@
 using backend.DTO.Auth;
+using backend.Exceptions.Http;
+using backend.Models;
 using backend.Responses.Auth;
 using backend.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -19,8 +21,6 @@ public class AuthController : ControllerBase
     [HttpPost("sign-in")]
     public ActionResult SignIn([FromBody] SignInDTO signInDTO)
     {
-        throw new Exception("testando log");
-
         SignInResponse signInResponse = this.authService.SignIn(signInDTO);
 
         return Ok(signInResponse.ToObject());

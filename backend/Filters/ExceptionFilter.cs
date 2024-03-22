@@ -1,3 +1,4 @@
+using Azure.Core;
 using backend.Log;
 using backend.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -15,16 +16,16 @@ public class ExceptionFilter : IActionFilter, IOrderedFilter
     {
         if (context.Exception is Exception exception)
         {
+            HttpRequest request = context.HttpContext.Request;
+
+            RequestLog.Log(exception, request);
+
             context.Result = new ObjectResult(GenerateResponseBody(exception))
             {
                 StatusCode = 500,
             };
 
             context.ExceptionHandled = true;
-
-            HttpRequest request = context.HttpContext.Request;
-
-            RequestLog.Log(exception, request);
         }
     }
 

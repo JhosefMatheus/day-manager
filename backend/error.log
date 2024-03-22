@@ -1,0 +1,453 @@
+DateTime: 22/03/2024 16:43:41
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711136621205
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 22
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 16:51:04
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137064569
+	Body:
+		
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 22
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 16:52:21
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137140997
+	Body:
+		
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 22
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 16:53:51
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137231518
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 22
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 16:55:18
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137318054
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 22
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 16:57:11
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137431073
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 22
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 16:58:21
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137501722
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 22
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 16:59:12
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137552277
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 17:01:07
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137667256
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 17:02:41
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137760989
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 17:03:09
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137789202
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 17:03:39
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711137819511
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 17:14:32
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711138472376
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 17:15:20
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711138520355
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 17:17:07
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711138627436
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 17:36:00
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711139760121
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 17:38:35
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711139915392
+	Body:
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 22/03/2024 17:43:00
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711140180634
+	Body:
+		
+Exception:
+	Message: testando log
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+

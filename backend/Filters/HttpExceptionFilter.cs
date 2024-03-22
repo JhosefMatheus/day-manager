@@ -15,19 +15,19 @@ public class HttpExceptionFilter : IActionFilter, IOrderedFilter
     {
         if (context.Exception is BaseHttpException httpException)
         {
+            if (httpException.Status == 500)
+            {
+                HttpRequest request = context.HttpContext.Request;
+
+                RequestLog.Log(httpException, request);
+            }
+
             context.Result = new ObjectResult(httpException.ToObject())
             {
                 StatusCode = httpException.Status
             };
 
             context.ExceptionHandled = true;
-
-            HttpRequest request = context.HttpContext.Request;
-
-            if (httpException.Status == 500)
-            {
-                RequestLog.Log(httpException, request);
-            }
         }
     }
 }
