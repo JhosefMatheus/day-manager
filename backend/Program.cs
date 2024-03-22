@@ -1,3 +1,4 @@
+using backend.Filters;
 using backend.Models;
 using backend.Services;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +13,11 @@ public class Program
 
         // Add services to the container.
 
-        builder.Services.AddControllers();
+        builder.Services.AddControllers(options =>
+        {
+            options.Filters.Add<HttpExceptionFilter>();
+            options.Filters.Add<ExceptionFilter>();
+        });
 
         builder.Services.AddDbContext<DayContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));

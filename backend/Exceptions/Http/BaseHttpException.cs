@@ -12,4 +12,13 @@ public class BaseHttpException : BaseException
         this.Status = status;
         this.Variant = variant;
     }
+
+    public object ToObject()
+    {
+        return new
+        {
+            message = this.Message,
+            variant = this.Variant.ToString(),
+        };
+    }
 }

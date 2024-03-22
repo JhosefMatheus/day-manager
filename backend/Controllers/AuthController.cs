@@ -1,6 +1,4 @@
 using backend.DTO.Auth;
-using backend.Exceptions.Http;
-using backend.Models;
 using backend.Responses.Auth;
 using backend.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -21,19 +19,10 @@ public class AuthController : ControllerBase
     [HttpPost("sign-in")]
     public ActionResult SignIn([FromBody] SignInDTO signInDTO)
     {
-        try
-        {
-            SignInResponse signInResponse = this.authService.SignIn(signInDTO);
+        throw new Exception("testando log");
 
-            return Ok(signInResponse.ToObject());
-        }
-        catch (UnauthorizedRequestException e)
-        {
-            return Unauthorized(new { message = e.Message, variant = e.Variant.ToString() });
-        }
-        catch (Exception e)
-        {
-            return BadRequest(new { message = e.Message });
-        }
+        SignInResponse signInResponse = this.authService.SignIn(signInDTO);
+
+        return Ok(signInResponse.ToObject());
     }
 }
