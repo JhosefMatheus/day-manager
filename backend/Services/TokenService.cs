@@ -1,8 +1,10 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json;
 using backend.Models;
 using backend.Responses.Token;
+using Microsoft.Extensions.Primitives;
 using Microsoft.IdentityModel.Tokens;
 
 namespace backend.Services;
@@ -55,7 +57,7 @@ public class TokenService
         return credentials;
     }
 
-    public ClaimsPrincipal decodeToken(string token)
+    public UserWithoutPassword decodeToken(string token)
     {
         string tokenWithoutBearer = token.Replace("Bearer ", "");
 
@@ -74,9 +76,21 @@ public class TokenService
 
         SecurityToken securityToken;
 
-        ClaimsPrincipal claims = tokenHandler
-            .ValidateToken(tokenWithoutBearer, tokenValidationParameters, out securityToken);
+        tokenHandler.ValidateToken(tokenWithoutBearer, tokenValidationParameters, out securityToken);
 
-        return claims;
+        string payloadString = securityToken.ToString().Split(".", 2)[1];
+
+        Dictionary<string, JsonElement> payload = JsonSerializer.Deserialize<Dictionary<string, JsonElement>>(payloadString);
+
+        int id = int.Parse(payload["id"].GetString());
+        string name = payload["name"].GetString();
+        string login = payload["login"].GetString();
+        DateTime createdAt = DateTime.Parse(payload["createdAt"].GetString());
+        DateTime? updatedAt = payload["updatedAt"].GetString() == "" ? null : DateTime.Parse(payload["updatedAt"].GetString());
+        DateTime? deletedAt = payload["deletedAt"].GetString() == "" ? null : DateTime.Parse(payload["deletedAt"].GetString());
+
+        UserWithoutPassword user = new UserWithoutPassword(id, name, login, createdAt, updatedAt, deletedAt);
+
+        return user;
     }
 }

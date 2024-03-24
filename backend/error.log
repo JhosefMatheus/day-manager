@@ -23,3 +23,351 @@ Exception:
    at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
 
 
+DateTime: 23/03/2024 22:42:40
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711244559660
+	Body:
+		{"login":"jhosef.nascimento.108","password":"Bambam@xx12"}
+Exception:
+	Message: teste
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 22:43:11
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711244591535
+	Body:
+		{"login":"jhosef.nascimento.108","password":"Bambam@xx12"}
+Exception:
+	Message: teste
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 22:44:17
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711244656840
+	Body:
+		login: jhosef.nascimento.108
+		password: Bambam@xx12
+Exception:
+	Message: teste
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 22:57:27
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Content-Type: application/json
+		Content-Length: 58
+		request-start-time: 1711245446825
+	Body:
+		login: jhosef.nascimento.108
+		password: Bambam@xx12
+Exception:
+	Message: teste
+	StackTrace:    at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 23:01:18
+Request:
+	Path: /token/verify
+	Method: GET
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYW1lIjoiSmhvc2VmIE1hdGhldXMiLCJsb2dpbiI6Impob3NlZi5uYXNjaW1lbnRvLjEwOCIsImNyZWF0ZWRBdCI6IjIxLzAzLzIwMjQgMjI6MzQ6MzMiLCJ1cGRhdGVkQXQiOiIiLCJkZWxldGVkQXQiOiIiLCJleHAiOjE3MTE0MTI3NTR9.hQPCEkNUQEER_Oki0o1GSoXGCsqjdHc6N7dTYbkR6Iw
+		request-start-time: 1711245678061
+	Body:
+Exception:
+	Message: The JSON value could not be converted to System.String. Path: $.exp | LineNumber: 0 | BytePositionInLine: 146.
+	StackTrace:    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at backend.Services.TokenService.decodeToken(String token) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\TokenService.cs:line 84
+   at backend.Controllers.TokenController.Verify(String authorization) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\TokenController.cs:line 27
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 23:03:50
+Request:
+	Path: /token/verify
+	Method: GET
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYW1lIjoiSmhvc2VmIE1hdGhldXMiLCJsb2dpbiI6Impob3NlZi5uYXNjaW1lbnRvLjEwOCIsImNyZWF0ZWRBdCI6IjIxLzAzLzIwMjQgMjI6MzQ6MzMiLCJ1cGRhdGVkQXQiOiIiLCJkZWxldGVkQXQiOiIiLCJleHAiOjE3MTE0MTI3NTR9.hQPCEkNUQEER_Oki0o1GSoXGCsqjdHc6N7dTYbkR6Iw
+		request-start-time: 1711245830046
+	Body:
+Exception:
+	Message: The JSON value could not be converted to Microsoft.Extensions.Primitives.StringValues. Path: $.id | LineNumber: 0 | BytePositionInLine: 9.
+	StackTrace:    at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonDictionaryConverter`3.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TDictionary& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at backend.Services.TokenService.decodeToken(String token) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\TokenService.cs:line 85
+   at backend.Controllers.TokenController.Verify(String authorization) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\TokenController.cs:line 27
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 23:09:58
+Request:
+	Path: /token/verify
+	Method: GET
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYW1lIjoiSmhvc2VmIE1hdGhldXMiLCJsb2dpbiI6Impob3NlZi5uYXNjaW1lbnRvLjEwOCIsImNyZWF0ZWRBdCI6IjIxLzAzLzIwMjQgMjI6MzQ6MzMiLCJ1cGRhdGVkQXQiOiIiLCJkZWxldGVkQXQiOiIiLCJleHAiOjE3MTE0MTI3NTR9.hQPCEkNUQEER_Oki0o1GSoXGCsqjdHc6N7dTYbkR6Iw
+		request-start-time: 1711246198589
+	Body:
+Exception:
+	Message: Cannot implicitly convert type 'System.Text.Json.JsonElement' to 'int'
+	StackTrace:    at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at backend.Services.TokenService.decodeToken(String token) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\TokenService.cs:line 87
+   at backend.Controllers.TokenController.Verify(String authorization) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\TokenController.cs:line 27
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 23:11:24
+Request:
+	Path: /token/verify
+	Method: GET
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYW1lIjoiSmhvc2VmIE1hdGhldXMiLCJsb2dpbiI6Impob3NlZi5uYXNjaW1lbnRvLjEwOCIsImNyZWF0ZWRBdCI6IjIxLzAzLzIwMjQgMjI6MzQ6MzMiLCJ1cGRhdGVkQXQiOiIiLCJkZWxldGVkQXQiOiIiLCJleHAiOjE3MTE0MTI3NTR9.hQPCEkNUQEER_Oki0o1GSoXGCsqjdHc6N7dTYbkR6Iw
+		request-start-time: 1711246283960
+	Body:
+Exception:
+	Message: Unable to cast object of type 'System.Text.Json.JsonElement' to type 'System.Int32'.
+	StackTrace:    at backend.Services.TokenService.decodeToken(String token) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\TokenService.cs:line 87
+   at backend.Controllers.TokenController.Verify(String authorization) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\TokenController.cs:line 27
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 23:11:55
+Request:
+	Path: /token/verify
+	Method: GET
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYW1lIjoiSmhvc2VmIE1hdGhldXMiLCJsb2dpbiI6Impob3NlZi5uYXNjaW1lbnRvLjEwOCIsImNyZWF0ZWRBdCI6IjIxLzAzLzIwMjQgMjI6MzQ6MzMiLCJ1cGRhdGVkQXQiOiIiLCJkZWxldGVkQXQiOiIiLCJleHAiOjE3MTE0MTI3NTR9.hQPCEkNUQEER_Oki0o1GSoXGCsqjdHc6N7dTYbkR6Iw
+		request-start-time: 1711246315054
+	Body:
+Exception:
+	Message: Unable to cast object of type 'System.Text.Json.JsonElement' to type 'System.Int32'.
+	StackTrace:    at backend.Services.TokenService.decodeToken(String token) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\TokenService.cs:line 87
+   at backend.Controllers.TokenController.Verify(String authorization) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\TokenController.cs:line 27
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 23:12:42
+Request:
+	Path: /token/verify
+	Method: GET
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYW1lIjoiSmhvc2VmIE1hdGhldXMiLCJsb2dpbiI6Impob3NlZi5uYXNjaW1lbnRvLjEwOCIsImNyZWF0ZWRBdCI6IjIxLzAzLzIwMjQgMjI6MzQ6MzMiLCJ1cGRhdGVkQXQiOiIiLCJkZWxldGVkQXQiOiIiLCJleHAiOjE3MTE0MTI3NTR9.hQPCEkNUQEER_Oki0o1GSoXGCsqjdHc6N7dTYbkR6Iw
+		request-start-time: 1711246362526
+	Body:
+Exception:
+	Message: Unable to cast object of type 'System.Text.Json.JsonElement' to type 'System.Int32'.
+	StackTrace:    at backend.Services.TokenService.decodeToken(String token) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\TokenService.cs:line 87
+   at backend.Controllers.TokenController.Verify(String authorization) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\TokenController.cs:line 27
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 23:13:20
+Request:
+	Path: /token/verify
+	Method: GET
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYW1lIjoiSmhvc2VmIE1hdGhldXMiLCJsb2dpbiI6Impob3NlZi5uYXNjaW1lbnRvLjEwOCIsImNyZWF0ZWRBdCI6IjIxLzAzLzIwMjQgMjI6MzQ6MzMiLCJ1cGRhdGVkQXQiOiIiLCJkZWxldGVkQXQiOiIiLCJleHAiOjE3MTE0MTI3NTR9.hQPCEkNUQEER_Oki0o1GSoXGCsqjdHc6N7dTYbkR6Iw
+		request-start-time: 1711246400147
+	Body:
+Exception:
+	Message: Unable to cast object of type 'System.Text.Json.JsonElement' to type 'System.Int32'.
+	StackTrace:    at backend.Services.TokenService.decodeToken(String token) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\TokenService.cs:line 85
+   at backend.Controllers.TokenController.Verify(String authorization) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\TokenController.cs:line 27
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 23:14:47
+Request:
+	Path: /token/verify
+	Method: GET
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYW1lIjoiSmhvc2VmIE1hdGhldXMiLCJsb2dpbiI6Impob3NlZi5uYXNjaW1lbnRvLjEwOCIsImNyZWF0ZWRBdCI6IjIxLzAzLzIwMjQgMjI6MzQ6MzMiLCJ1cGRhdGVkQXQiOiIiLCJkZWxldGVkQXQiOiIiLCJleHAiOjE3MTE0MTI3NTR9.hQPCEkNUQEER_Oki0o1GSoXGCsqjdHc6N7dTYbkR6Iw
+		request-start-time: 1711246486899
+	Body:
+Exception:
+	Message: Unable to cast object of type 'System.Text.Json.JsonElement' to type 'System.IConvertible'.
+	StackTrace:    at System.Convert.ToInt32(Object value)
+   at backend.Services.TokenService.decodeToken(String token) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\TokenService.cs:line 85
+   at backend.Controllers.TokenController.Verify(String authorization) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\TokenController.cs:line 27
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 23/03/2024 23:15:39
+Request:
+	Path: /token/verify
+	Method: GET
+	Query:
+	Headers:
+		Accept: application/json, text/plain, */*
+		Connection: close
+		Host: localhost:5071
+		User-Agent: axios/1.6.7
+		Accept-Encoding: gzip, compress, deflate, br
+		Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJuYW1lIjoiSmhvc2VmIE1hdGhldXMiLCJsb2dpbiI6Impob3NlZi5uYXNjaW1lbnRvLjEwOCIsImNyZWF0ZWRBdCI6IjIxLzAzLzIwMjQgMjI6MzQ6MzMiLCJ1cGRhdGVkQXQiOiIiLCJkZWxldGVkQXQiOiIiLCJleHAiOjE3MTE0MTI3NTR9.hQPCEkNUQEER_Oki0o1GSoXGCsqjdHc6N7dTYbkR6Iw
+		request-start-time: 1711246539178
+	Body:
+Exception:
+	Message: Unable to cast object of type 'System.Text.Json.JsonElement' to type 'System.Int32'.
+	StackTrace:    at backend.Services.TokenService.decodeToken(String token) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\TokenService.cs:line 87
+   at backend.Controllers.TokenController.Verify(String authorization) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\TokenController.cs:line 27
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+

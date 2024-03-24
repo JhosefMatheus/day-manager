@@ -33,4 +33,6 @@ public class UserModel
 
     [Column("deleted_at")]
     public DateTime? DeletedAt { get; set; }
+
+    public ICollection<TaskModel> Tasks { get; set; }
 }

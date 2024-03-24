@@ -89,10 +89,20 @@ public class RequestLog
         {
             requestBodyText = reader.ReadToEnd();
         }
-
+        
         string logText = "\tBody:\n";
 
-        logText += "\t\t" + requestBodyText + "\n";
+        if (requestBodyText == "")
+        {
+            return logText;
+        }
+
+        Dictionary<string, string> requestBodyDict = JsonSerializer.Deserialize<Dictionary<string, string>>(requestBodyText);
+
+        requestBodyDict.ToList().ForEach((KeyValuePair<string, string> e) =>
+        {
+            logText += "\t\t" + e.Key + ": " + e.Value + "\n";
+        });
 
         return logText;
     }

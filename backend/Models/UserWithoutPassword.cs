@@ -19,6 +19,16 @@ public class UserWithoutPassword
         this.DeletedAt = user.DeletedAt;
     }
 
+    public UserWithoutPassword(int id, string name, string login, DateTime createdAt, DateTime? updatedAt, DateTime? deletedAt)
+    {
+        this.Id = id;
+        this.Name = name;
+        this.Login = login;
+        this.CreatedAt = createdAt;
+        this.UpdatedAt = updatedAt;
+        this.DeletedAt = deletedAt;
+    }
+
     public object ToObject()
     {
         return new
