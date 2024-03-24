@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhose\\desktop\\projetos\\day-manager\\backend\\backend.csproj": {}
+    "C:\\Users\\jhose\\Desktop\\projetos\\day-manager\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhose\\desktop\\projetos\\day-manager\\backend\\backend.csproj": {
+    "C:\\Users\\jhose\\Desktop\\projetos\\day-manager\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhose\\desktop\\projetos\\day-manager\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\jhose\\Desktop\\projetos\\day-manager\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\jhose\\desktop\\projetos\\day-manager\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\jhose\\Desktop\\projetos\\day-manager\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\jhose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhose\\desktop\\projetos\\day-manager\\backend\\obj\\",
+        "outputPath": "C:\\Users\\jhose\\Desktop\\projetos\\day-manager\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
