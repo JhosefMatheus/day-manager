@@ -2,6 +2,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using backend.Models;
+using backend.Responses.Token;
 using Microsoft.IdentityModel.Tokens;
 
 namespace backend.Services;
@@ -27,10 +28,7 @@ public class TokenService
             new Claim("deletedAt", user.DeletedAt.ToString())
         ];
 
-        string jwtSecret = this.configuration.GetValue<string>("JwtSecret");
-
-        SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSecret));
-        SigningCredentials credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+        SigningCredentials credentials = this.getJwtCredentials();
 
         DateTime expiration = DateTime.UtcNow.AddDays(2);
 
@@ -45,5 +43,40 @@ public class TokenService
         string tokenString = new JwtSecurityTokenHandler().WriteToken(token);
 
         return tokenString;
+    }
+
+    private SigningCredentials getJwtCredentials()
+    {
+        string jwtSecret = this.configuration.GetValue<string>("JwtSecret");
+
+        SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSecret));
+        SigningCredentials credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+        return credentials;
+    }
+
+    public ClaimsPrincipal decodeToken(string token)
+    {
+        string tokenWithoutBearer = token.Replace("Bearer ", "");
+
+        SigningCredentials credentials = this.getJwtCredentials();
+
+        TokenValidationParameters tokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = credentials.Key
+        };
+
+        JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
+
+        SecurityToken securityToken;
+
+        ClaimsPrincipal claims = tokenHandler
+            .ValidateToken(tokenWithoutBearer, tokenValidationParameters, out securityToken);
+
+        return claims;
     }
 }

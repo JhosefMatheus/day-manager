@@ -5,17 +5,15 @@ namespace backend.Responses.Auth;
 public class SignInResponse : BaseResponse
 {
     public string Token { get; }
-    public RequestVariant RequestVariant { get; }
     public UserWithoutPassword User { get; }
 
     public SignInResponse(
         string message,
         string token,
-        RequestVariant requestVariant,
-        UserWithoutPassword user) : base(message)
+        RequestVariant variant,
+        UserWithoutPassword user) : base(message, variant)
     {
         this.Token = token;
-        this.RequestVariant = requestVariant;
         this.User = user;
     }
 
@@ -25,7 +23,7 @@ public class SignInResponse : BaseResponse
         {
             message = base.Message,
             token = this.Token,
-            variant = this.RequestVariant.ToString(),
+            variant = base.Variant.ToString(),
             user = this.User.ToObject()
         };
     }

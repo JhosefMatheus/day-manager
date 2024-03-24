@@ -1,4 +1,5 @@
 using System.IO.Pipelines;
+using System.Reflection;
 using System.Text.Json;
 using Microsoft.Extensions.Primitives;
 
@@ -8,8 +9,6 @@ public class RequestLog
 {
     public static void Log(Exception exception, HttpRequest request)
     {
-        request.EnableBuffering();
-
         DateTime dateTime = DateTime.Now;
 
         string requestPath = request.Path;
@@ -82,19 +81,18 @@ public class RequestLog
 
     private static string GenerateRequestBodyLogText(Stream requestBody)
     {
-        string logText = "\tBody:\n";
-
         requestBody.Seek(0, SeekOrigin.Begin);
+
+        string requestBodyText = "";
 
         using (StreamReader reader = new StreamReader(requestBody))
         {
-            while (!reader.EndOfStream)
-            {
-                string line = reader.ReadLine();
-
-                logText += "\t\t" + line + "\n";
-            }
+            requestBodyText = reader.ReadToEnd();
         }
+
+        string logText = "\tBody:\n";
+
+        logText += "\t\t" + requestBodyText + "\n";
 
         return logText;
     }

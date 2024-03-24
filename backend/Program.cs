@@ -34,7 +34,11 @@ public class Program
 
         WebApplication app = builder.Build();
 
-        // Configure the HTTP request pipeline.
+        app.Use(async (context, next) =>
+        {
+            context.Request.EnableBuffering();
+            await next();
+        });
 
         app.UseHttpsRedirection();
 
