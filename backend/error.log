@@ -371,3 +371,231 @@ Exception:
    at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
 
 
+DateTime: 28/03/2024 13:40:28
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: keep-alive
+		Host: localhost:5071
+		User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+		Accept-Encoding: gzip, deflate, br, zstd
+		Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+		Cache-Control: no-cache
+		Content-Type: application/json
+		Origin: http://localhost:5173
+		Pragma: no-cache
+		Referer: http://localhost:5173/
+		Content-Length: 57
+		sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "Windows"
+		Sec-Fetch-Site: same-site
+		Sec-Fetch-Mode: cors
+		Sec-Fetch-Dest: empty
+	Body:
+		login: jhosef.nascimento.108
+		password: Bambam@xx1
+Exception:
+	Message: Login ou senha inválidos.
+	StackTrace:    at backend.Services.AuthService.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\AuthService.cs:line 33
+   at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 28/03/2024 13:52:51
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: keep-alive
+		Host: localhost:5071
+		User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+		Accept-Encoding: gzip, deflate, br, zstd
+		Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+		Cache-Control: no-cache
+		Content-Type: application/json
+		Origin: http://localhost:5173
+		Pragma: no-cache
+		Referer: http://localhost:5173/
+		Content-Length: 64
+		sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "Windows"
+		Sec-Fetch-Site: same-site
+		Sec-Fetch-Mode: cors
+		Sec-Fetch-Dest: empty
+	Body:
+		login: jhosef.nascimento.108
+		password: fjdklajflçdjalfa
+Exception:
+	Message: Login ou senha inválidos.
+	StackTrace:    at backend.Services.AuthService.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\AuthService.cs:line 33
+   at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 28/03/2024 13:54:04
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: keep-alive
+		Host: localhost:5071
+		User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+		Accept-Encoding: gzip, deflate, br, zstd
+		Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+		Cache-Control: no-cache
+		Content-Type: application/json
+		Origin: http://localhost:5173
+		Pragma: no-cache
+		Referer: http://localhost:5173/
+		Content-Length: 64
+		sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "Windows"
+		Sec-Fetch-Site: same-site
+		Sec-Fetch-Mode: cors
+		Sec-Fetch-Dest: empty
+	Body:
+		login: jhosef.nascimento.108
+		password: fjdklajflçdjalfa
+Exception:
+	Message: Login ou senha inválidos.
+	StackTrace:    at backend.Services.AuthService.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\AuthService.cs:line 33
+   at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 28/03/2024 13:55:44
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: keep-alive
+		Host: localhost:5071
+		User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+		Accept-Encoding: gzip, deflate, br, zstd
+		Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+		Cache-Control: no-cache
+		Content-Type: application/json
+		Origin: http://localhost:5173
+		Pragma: no-cache
+		Referer: http://localhost:5173/
+		Content-Length: 64
+		sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "Windows"
+		Sec-Fetch-Site: same-site
+		Sec-Fetch-Mode: cors
+		Sec-Fetch-Dest: empty
+	Body:
+		login: jhosef.nascimento.108
+		password: fjdklajflçdjalfa
+Exception:
+	Message: Login ou senha inválidos.
+	StackTrace:    at backend.Services.AuthService.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\AuthService.cs:line 33
+   at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 28/03/2024 13:55:57
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: keep-alive
+		Host: localhost:5071
+		User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+		Accept-Encoding: gzip, deflate, br, zstd
+		Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+		Cache-Control: no-cache
+		Content-Type: application/json
+		Origin: http://localhost:5173
+		Pragma: no-cache
+		Referer: http://localhost:5173/
+		Content-Length: 64
+		sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "Windows"
+		Sec-Fetch-Site: same-site
+		Sec-Fetch-Mode: cors
+		Sec-Fetch-Dest: empty
+	Body:
+		login: jhosef.nascimento.108
+		password: fjdklajflçdjalfa
+Exception:
+	Message: Login ou senha inválidos.
+	StackTrace:    at backend.Services.AuthService.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\AuthService.cs:line 33
+   at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+
+DateTime: 28/03/2024 14:03:39
+Request:
+	Path: /auth/sign-in
+	Method: POST
+	Query:
+	Headers:
+		Accept: application/json
+		Connection: keep-alive
+		Host: localhost:5071
+		User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+		Accept-Encoding: gzip, deflate, br, zstd
+		Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+		Cache-Control: no-cache
+		Content-Type: application/json
+		Origin: http://localhost:5173
+		Pragma: no-cache
+		Referer: http://localhost:5173/
+		Content-Length: 64
+		sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"
+		sec-ch-ua-mobile: ?0
+		sec-ch-ua-platform: "Windows"
+		Sec-Fetch-Site: same-site
+		Sec-Fetch-Mode: cors
+		Sec-Fetch-Dest: empty
+	Body:
+		login: jhosef.nascimento.108
+		password: fjdklajflçdjalfa
+Exception:
+	Message: Login ou senha inválidos.
+	StackTrace:    at backend.Services.AuthService.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Services\AuthService.cs:line 33
+   at backend.Controllers.AuthController.SignIn(SignInDTO signInDTO) in C:\Users\jhose\desktop\projetos\day-manager\backend\Controllers\AuthController.cs:line 24
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+
+

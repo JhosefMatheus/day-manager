@@ -32,6 +32,16 @@ public class Program
             options.AllowSynchronousIO = true;
         });
 
+        builder.Services.AddCors(options =>
+        {
+            options.AddDefaultPolicy(builder =>
+            {
+                builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            });
+        });
+
         WebApplication app = builder.Build();
 
         app.Use(async (context, next) =>
@@ -43,6 +53,8 @@ public class Program
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
+
+        app.UseCors();
 
 
         app.MapControllers();
